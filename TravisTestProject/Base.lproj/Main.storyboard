@@ -24,11 +24,20 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xX-Vh-Lri">
+                                <rect key="frame" x="279.5" y="343" width="41" height="30"/>
+                                <state key="normal" title="Crash"/>
+                                <connections>
+                                    <action selector="Crash:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f12-MY-sPo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="8g3-DN-CRS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EUR-34-ISg"/>
                             <constraint firstItem="8g3-DN-CRS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WwK-Bs-F1C"/>
+                            <constraint firstItem="8xX-Vh-Lri" firstAttribute="top" secondItem="8g3-DN-CRS" secondAttribute="bottom" constant="28" id="kiS-Ny-aZn"/>
+                            <constraint firstItem="8xX-Vh-Lri" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="znD-Zq-Cbq"/>
                         </constraints>
                     </view>
                 </viewController>
