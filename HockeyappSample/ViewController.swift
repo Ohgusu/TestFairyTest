@@ -21,7 +21,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func crash(sender: UIButton) {
-        fatalError()
+        let b = "12pp"
+        let a: Int = Int(b)!
+        print(a)
     }
     
 
