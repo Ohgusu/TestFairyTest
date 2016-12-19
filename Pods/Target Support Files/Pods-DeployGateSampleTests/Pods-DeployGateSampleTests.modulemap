@@ -1,0 +1,6 @@
+framework module Pods_DeployGateSampleTests {
+  umbrella header "Pods-DeployGateSampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
